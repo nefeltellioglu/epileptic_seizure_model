@@ -4,8 +4,8 @@
 
 #libraries
 
-setwd("/Users/ntellioglu/OneDrive - The University of Melbourne/Epilepsy")
-source("Code/params.R")
+#setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+#source("params.R")
 
 #activation functions
 f <- function(epsilon, u) (1/(1 + epsilon^(-u))) 

@@ -1,7 +1,7 @@
 #Parameters and the model is taken from Taylor et al (2014) 
 #A Computational Study of Stimulus Driven Epileptic Seizure Abatement
 
-setwd("/Users/ntellioglu/OneDrive - The University of Melbourne/Epilepsy")
+#setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 det.params <- list(nsteps = 10*15000, dt1 = 1/15000, init = c(0.1724,0.1787,-0.0818,0.2775) ,
                   tau1 = 26, tau2 = 32.5, tau3 = 2.6, tau4 = 2.6, 
